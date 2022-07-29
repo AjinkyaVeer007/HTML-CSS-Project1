@@ -1,0 +1,168 @@
+.container{
+    margin: 50px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container>div>img{
+    width: 120px;
+}
+
+.list{
+    display: flex;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Orbitron';
+    font-size: 25px;
+}
+
+.list>.list-item:first-child{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.list-item:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+}
+
+.search-icon>svg{
+    width: 20px;
+    margin-right: 20px;
+}
+
+div>button.nav-button{
+   padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: grey;
+    font-family: 'Orbitron';
+}
+
+.square{
+    margin-right: 60%;
+    position: relative;
+    left: 120px;
+    top: 235px;
+    z-index: -1;
+}
+
+.square>img{
+    width: 230px;
+}
+
+
+.hero-container>div>img{
+    margin-right: 60%;
+    position: absolute;
+    width: 300px;
+    top: 150px;
+}
+
+.globe>img{
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.star>img{
+    width: 50px;
+    position: absolute;
+    right: 0%;
+    top: 25%;
+    margin-right: 50px;
+}
+
+.hero-container-right{
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.hero-heading{
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    justify-content: center;
+    font-family: 'Orbitron';
+}
+
+.hero-description{
+    position: absolute;
+    font-size: 17px;
+    top: 50%;
+    width: 50%;
+    text-align: center;
+    color: grey;
+    font-family: 'Poppins';
+}
+
+.button-email{
+    padding: 5px 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fff;
+    color:grey;
+    position: absolute;
+    left: 55%;
+    font-family: 'Orbitron';
+    
+    
+}
+
+.button-join{
+    padding: 5px 5px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: black;
+    color:#fff;
+    position: absolute;
+    right: 23%;
+    font-family: 'Orbitron';
+}
+
+
+.hero-container-right>div>button{
+    display: flex;
+    top: 70%;
+}
+
+.contact-heading{
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    color: grey;
+    font-size: 17px;
+    font-family: 'Poppins';
+}
+.icons{
+    display: flex;
+    top: 90%;
+    position: absolute;
+    right: 28%;
+    
+}
+div>span>img{
+    width: 30px;
+    margin: 5px;
+   
+}
+
+
