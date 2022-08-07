@@ -170,9 +170,6 @@ div>span>img{
 }
 
 @media screen and (max-width:950px) {
-    body{
-        background-color: #ffacac;
-    }
 
     .container{
         margin: 20px;
