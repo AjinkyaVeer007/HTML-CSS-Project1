@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.navbar-container i{
+    display: none;
+}
+
 .navbar-container>div>img{
     width: 120px;
 }
@@ -163,6 +167,101 @@ div>span>img{
     width: 30px;
     margin: 5px;
    
+}
+
+@media screen and (max-width:950px) {
+    body{
+        background-color: #ffacac;
+    }
+
+    .container{
+        margin: 20px;
+    }
+
+    .navbar-container i{
+        display: block;
+        font-size: 20px;
+    }
+
+    .navbar-container ul{
+        display: none;
+    }
+
+    .button-group{
+        display: none;
+    }
+
+    .navbar-container>div>img{
+        width: 90px;
+    }
+
+    .hero-container>div>img{
+        width: 250px;
+        top: 80px;
+    }
+
+    .globe>img{
+        left: 80%;
+        top: 10%;
+    }
+
+    .star>img{
+        margin-right: 80%;
+        top: 58%;
+    }
+
+    .square{
+        left: 80px;
+        top: 150px;
+    }
+    
+    .square>img{
+        width: 230px;
+    }
+
+    .hero-heading{
+        font-size: 22px;
+        position: absolute;
+        top: 64%;
+        font-family: 'Orbitron';
+        left: 20px;
+    }
+
+    .hero-description{
+        font-size: 12px;
+        top: 70%;
+        width: 90%;
+        left: 10px;
+    }
+
+    .button-email{
+        padding: 5px 20px;
+        font-size: 12px;
+        left: 10%;  
+    }
+    
+    .button-join{
+        padding: 5px 20px;
+        font-size: 12px;
+        right: 10%;
+    }
+
+    .hero-container-right>div>button{
+        top: 82%;
+        margin-top: 5px;
+    }
+
+    .contact-heading{
+        top: 85%;
+        right: 35%;
+        font-size: 17px;
+    }
+
+    .icons{
+        top: 92%;
+        
+    }
+
 }
 
 
